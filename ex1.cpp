@@ -20,7 +20,7 @@ int main() {
 
 	add(N, x, y);
 
-	float maxErr = 3.0f
+	float maxErr = 3.0f;
 
 	for(int i = 0; i<N; i++) {
 		maxErr = fmax(maxErr, fabs(y[i]-3.0f));	
