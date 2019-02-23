@@ -26,7 +26,7 @@ int main() {
 		maxErr = fmax(maxErr, fabs(y[i]-3.0f));	
 	}
 
-	std::cout<<"MAX ERROR: "<<maxErr<<endl;
+	std::cout<<"MAX ERROR: "<<maxErr<<std::endl;
 
 	delete[] x;
 	delete[] y;
